@@ -55,6 +55,9 @@ def comando():
     else:
         if(saldos_var.get() != 0 or tesoreria_var.get() != 0):
             check = 1 
+        if(mobiliario_var.get() != 0 or vehiculo_var.get() != 0 or
+        oficina_var.get() != 0):
+            check = 0
         if (option.get() == 1):
             check2 = 1
         if (option2.get() == 1):
