@@ -55,9 +55,9 @@ def comando():
     else:
         if(saldos_var.get() != 0 or tesoreria_var.get() != 0):
             check = 1 
-        if (option == 1):
+        if (option.get() == 1):
             check2 = 1
-        if (option2 == 1):
+        if (option2.get() == 1):
             check3 = 1
         calificacion = primeras+check+check2+check3
         cajita('Tu calificaion es de: ', calificacion)
